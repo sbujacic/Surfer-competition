@@ -26,3 +26,5 @@ git add fr
 git commit -m '[fr] creating French translation
 ```
 Now you can create a pull request with the IMAGINARY repository and merge the changes into it. 
+
+Lastly, add your name in the AUTHORS file, so that it can be tracked who did certain translations.
