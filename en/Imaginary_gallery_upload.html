@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><!-- wusel -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Imaginary</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body><!-- ä -->
+<table id="outer_table" cellspacing="0" cellpadding="0">
+
+<!--
+	<tr>
+
+
+
+	<td class="topimg_td" style="width:430px;">
+	<a href="http://www.imaginary-exhibition.com"><img src="../images/imaginary.gif" width="427" height="64" alt="IMAGINARY"></a>
+	</td>
+	<td class="topimg_td" style="text-align:center;">
+	<a href="http://www.rsme.es"><img src="../images/100rsme-logo.png" width="121" height="76" alt="RSME"></a>
+	</td>
+
+	<td class="topimg_td" style="padding-right:20px;padding-bottom:20px;width:150px;text-align:right;vertical-align:bottom;">
+	<select onChange="document.location.href='?lang='+this.value;">
+	<option value="pt"{{IF:LANG_PT}} selected="selected"{{ENDIF}}>Português</option>
+	
+	</select>
+	</td>
+
+	</tr>
+	
+	
+	-->
+	
+	<tr>
+		<td id="menu" colspan="3">
+			<table style="width:100%;padding:0px;" cellspacing="0">
+				<tr>
+					<td>
+					<a href="index.php">Information</a> &nbsp; <a href="galerie_view.php?gal=2">Competition Gallery</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td id="middle" colspan="3">
+<div class="headline">Picture Upload</div>
+<form enctype="multipart/form-data" action="galerie_upload_post.php" method="post">
+	<table style="color:#555555;font-size:13px;width:100%;">
+		<tr>
+			<td style="width:150px;">Your name:</td><td><input style="width:255px;" type="text" name="post_string1x"></td>
+			<td rowspan="6" style="vertical-align:top;">
+					<b>Gallery: Gallery 2</b><br>
+					Tips and regulations: Only upload pictures created with the SURFER programme. The title can be chosen freely. Please paste the equation that creates the picture into the formula field. Leave a valid e-mail address to be contacted in case your picture is among the winners. Have fun and enjoy "Surfing"!
+			</td>
+		</tr>
+		<tr><td>E-Mail:</td><td><input style="width:255px;" type="text" name="post_email"></td></tr>
+		<tr><td>Title of picture:</td><td style="width:300px;"><input style="width:255px;" type="text" name="post_string1"></td></tr>
+		<tr><td>Formula:</td><td><input style="width:255px;" type="text" name="post_string2"></td></tr>
+		<tr><td>Picture:</td><td><input type="file" name="post_file"></td></tr>
+		<tr><td colspan="2"><input type="hidden" name="gal" value="2"><input type="submit" value="upload"><br>(Please only click once, uploading may take some time.)</td></tr>
+	</table>
+	</form><a class="mlink" href="galerie_view.php?gal=2">Back</a> to the gallery.
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="3" style="padding-top:20px;">
+	<!--		
+		<a href="http://www.cvtavira.pt/home"><img src="../images/logos/tavira.png" width="250" alt="" target="new"></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		-->
+		<a href="http://www.mfo.de"><img src="../images/logos/mfo_logo.png" alt="MFO"></a>&nbsp;&nbsp;&nbsp;
+
+
+		</td>
+	</tr>
+</table>
+</body>
+</html>
